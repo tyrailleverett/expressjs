@@ -4,6 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "preinstall": "npx only-allow pnpm",
         "db:start": "dotenv -e .env.dev -e .env.test docker compose up",
         "db:stop": "docker compose down",
         "db:push": "dotenv -e .env.test npx prisma db push",
