@@ -1,3 +1,3 @@
-# Base NodeJS Template
+# Base ExpressJS Template
 
-A NodeJS template built with Typescript, Eslint, Prettier, Vitest, and Husky.
+A ExpressJS template built with Prisma, Typescript, Eslint, Prettier, Vitest, and Husky.
